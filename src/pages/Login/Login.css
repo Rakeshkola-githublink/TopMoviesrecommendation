@@ -1,0 +1,173 @@
+.login{
+    height:100vh;
+    width:100vw;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: black;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    color:black;
+    text-align: center;
+
+}
+.login-container{
+    width:80%;
+    height:500px;
+    display:flex;
+    margin: 20px;
+    justify-content: center;
+    background: url('C:\Users\RakeshKola\Desktop\Moviewebsite\frontend\src\assets\assets\DEADPOOL.jpg');
+    box-shadow: 10px 10px black;
+
+}
+.first-name{
+    display:flex;
+    justify-items: center;
+    margin: 30px;
+}
+.first-name label{
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 40px;
+    color:yellow;
+}
+#firstName{
+    position: absolute;
+    margin: 2px 3px 20px 200px;
+    width: 20%;
+}
+
+.last-name{
+    display:flex;
+    justify-items: center;
+    margin: 30px;
+    color:yellow;
+}
+.last-name label{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 20px;
+    margin-top: 30px;
+    color:yellow;
+}
+#lastName{
+    position: absolute;
+    margin: 30px 3px 20px 200px;
+    width: 20%;
+}
+.email-address{
+    display:flex;
+    justify-items: center;
+    margin: 30px;
+}
+.email-address label{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 20px;
+    margin-top: 80px;
+    margin-right: 40px;
+    color:yellow;
+}
+#email{
+    position: absolute;
+    margin: 80px 3px 20px 210px;
+    width: 20%;
+}
+.password-input{
+    display:flex;
+    justify-items: center;
+    margin: 30px;
+}
+.password-input label{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 20px;
+    margin-top: 140px;
+    color:yellow;
+}
+#password{
+    position: absolute;
+    margin: 140px 3px 20px 200px;
+    width: 20%;
+    
+    border: 2px;
+}
+.confirm-password{
+    display:flex;
+    justify-items: center;
+    margin: 20px;
+}
+.confirm-password label{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 20px;
+    margin-top: 200px;
+    color:yellow;
+}
+#confirmPassword{
+    position: absolute;
+    margin: 200px 3px 20px 200px;
+    width: 20%;
+    
+    border: 2px;
+}
+.first-name .error{
+    position: absolute;
+color:red;
+margin: 20px 3px 20px 5px;
+}
+.last-name .error{
+    position: absolute;
+color:red;
+margin: 50px 3px 20px 5px;
+}
+.email-address .error{
+    position: absolute;
+color:red;
+margin: 100px 3px 20px 5px;
+}
+.password-input .error{
+    position: absolute;
+color:red;
+margin: 160px 3px 20px 5px;
+}
+.confirm-password .error{
+    position: absolute;
+color:red;
+margin: 220px 3px 20px 5px;
+}
+.switch-page{
+    position: absolute;
+    margin:  250px 20px 20px 300px;
+    background: transparent;
+    border: none;
+    color:green;
+    font-size: 14px;
+    width: 140px;
+    
+}
+.login-btn{
+    position: absolute;
+    margin: 250px  10px 20px 50px;
+    width: 120px;
+    border-radius: 5px;
+    color:black;
+    background-color: white;
+    padding: 10px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+background-color: blue;
+color:white;
+}

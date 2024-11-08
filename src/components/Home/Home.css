@@ -1,0 +1,82 @@
+/* Main Container */
+.main {
+    box-sizing: border-box;
+    height: 100px; /* Make sure it's full screen */
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .main h2 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px;
+  }
+  
+  /* Signin Navbar */
+  .signin {
+    position: absolute;
+    top: 20px; /* Move it down a little */
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    padding: 0 20px; /* Add padding for spacing */
+  }
+  
+  .sign-in-link {
+    color: yellow;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px ;
+    padding-right: 100px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .sign-in-link:hover {
+    color: #ffcc00; /* Hover effect */
+  }
+  
+  /* Theme Toggle */
+  .theme {
+    position: relative;
+    width: 60px;
+    height: 20px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    
+    padding: 3px;
+    margin-right: 100px;
+    margin-top: -10px;
+
+    transition: background-color 0.3s ease; /* Smooth background transition */
+    margin-left: 20px; /* Add space between the sign-in link and theme toggle */
+  }
+  
+  .theme.active {
+    background-color: black; /* Change background when active */
+  }
+  
+  .theme .slider {
+    position: absolute;
+    background-color: black;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    left: 5px; /* Position slider initially */
+  }
+  
+  .theme.active .slider {
+    left: 47px; /* Move the slider to the right when active */
+    background-color: white; /* Change color when active */
+  }
+  

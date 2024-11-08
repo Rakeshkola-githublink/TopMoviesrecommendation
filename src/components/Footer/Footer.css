@@ -1,0 +1,27 @@
+.footer{
+    
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+    
+    color:white;
+    cursor: pointer;
+    text-align: center;
+}
+    
+ul li{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+}
+ul li:hover{
+    color: blue;
+}
